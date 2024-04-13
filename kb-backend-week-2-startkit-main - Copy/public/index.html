@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Голос за игру</title>
+    <link
+      rel="stylesheet"
+      href="https://code.s3.yandex.net/web-code/fonts/fonts.css"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="game box">
+        <h1 class="game__title"></h1>
+        <p class="game__description"></p>
+        <div class="game__image-container">
+          <img src="" alt="" class="game__image" />
+          <button class="play">Играть</button>
+        </div>
+      </div>
+      <form class="vote box">
+        <h2 class="vote__title">Оцени игру</h2>
+        <div class="vote__label gameplay">
+          <h3 class="vote__marker">Геймплей:</h3>
+          <div class="vote__amount">
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="gameplay"
+                class="radio visually-hidden"
+                value="1"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="gameplay"
+                class="radio visually-hidden"
+                value="2"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="gameplay"
+                class="radio visually-hidden"
+                value="3"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="gameplay"
+                class="radio visually-hidden"
+                value="4"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="gameplay"
+                class="radio visually-hidden"
+                value="5"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+          </div>
+        </div>
+        <div class="vote__label design">
+          <h3 class="vote__marker">Дизайн:</h3>
+          <div class="vote__amount">
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="design"
+                class="radio visually-hidden"
+                value="1"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="design"
+                class="radio visually-hidden"
+                value="2"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="design"
+                class="radio visually-hidden"
+                value="3"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="design"
+                class="radio visually-hidden"
+                value="4"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="design"
+                class="radio visually-hidden"
+                value="5"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+          </div>
+        </div>
+        <div class="vote__label idea">
+          <h3 class="vote__marker">Идея:</h3>
+          <div class="vote__amount">
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="idea"
+                class="radio visually-hidden"
+                value="1"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="idea"
+                class="radio visually-hidden"
+                value="2"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="idea"
+                class="radio visually-hidden"
+                value="3"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="idea"
+                class="radio visually-hidden"
+                value="4"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+            <label class="input-wrapper">
+              <input
+                type="radio"
+                name="idea"
+                class="radio visually-hidden"
+                value="5"
+              />
+              <span class="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="gold"
+                  fill="none"
+                >
+                  <path
+                    stroke-width="1.2"
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="vote__button">Проголосовать</button>
+      </form>
+    </main>
+    <dialog id="game-dialog">
+      <iframe src="" frameborder="0"></iframe>
+      <button class="close">Закрыть</button>
+    </dialog>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
